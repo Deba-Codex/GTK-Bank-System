@@ -1,0 +1,7 @@
+Deba Deposit 5000.00
+Deba Withdraw 200.00
+Deba Withdraw 520.00
+Deba Withdraw 10.00
+KK Deposit 200.00
+KK Withdraw 10.00
+Deba Withdraw 500.00
