@@ -1,1 +1,0 @@
-#define YUTIL_STATIC_BUILD 1

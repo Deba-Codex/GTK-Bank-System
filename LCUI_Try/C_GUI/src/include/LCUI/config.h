@@ -1,2 +1,0 @@
-#define PACKAGE_VERSION "3.0.0-a-2e0f157f"
-#define LCUI_STATIC_BUILD 1
