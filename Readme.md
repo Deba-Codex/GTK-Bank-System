@@ -120,9 +120,18 @@ Icons, colors, and spacing are carefully arranged to **improve usability** while
 ---
 
 ## 📊 System Architecture
-![](screenshots/Diagram.jpg)
+```mermaid
+graph TD
+    A[💻 User Interface] -->|Handles user inputs| B[🔐 Authentication]
+    B -->|Validates user credentials| C[💰 Transaction Management]
+    C -->|Processes deposits & withdrawals| D[🖨️ PDF Generation]
+    D -->|Creates & saves receipts| E[💾 Data Persistence]
 
----
+    C --> F[📊 Transaction History]
+    F -->|Stores & retrieves past records| E
+
+
+```
 
 ## 📚 Project Documentation
 
