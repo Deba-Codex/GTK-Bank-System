@@ -46,13 +46,13 @@ This project reflects my expertise in **GUI development**, **data persistence**,
 ## 📸 Interface Preview
 
 ### Login & Deposit
-![Login & Deposit](screenshots/login.png)
+![Login & Deposit](screenshots/Login%20&%20Deposit.png)
 
 ### Withdraw & Receipt
-![Withdraw & Receipt](screenshots/transactions.png)
+![Withdraw & Receipt](screenshots/Security%20features.png)
 
 ### Security Features
-![Security Features](screenshots/security.png)
+![Security Features](screenshots/Security%20features.png)
 
 ---
 
@@ -79,22 +79,22 @@ sudo apt update && sudo apt install libgtk-3-dev
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/Deba-Codex/gtk-bank-system.git
-cd gtk-bank-system
+https://github.com/Deba-Codex/GTK-Bank-System.git
+cd GTK-Bank-System
 ```
 
 ### Compile and Run
 
 #### On Linux:
 ```bash
-gcc bank_system.c -o bank_system `pkg-config --cflags --libs gtk+-3.0`
-./bank_system
+gcc Bank_System.c -o Bank_System `pkg-config --cflags --libs gtk+-3.0`
+./Bank_System
 ```
 
 #### On Windows:
 ```sh
-gcc bank_system.c -o bank_system.exe `pkg-config --cflags --libs gtk+-3.0`
-./bank_system.exe
+gcc Bank_System.c -o Bank_System.exe `pkg-config --cflags --libs gtk+-3.0`
+./Bank_System.exe
 ```
 
 ---
@@ -120,21 +120,14 @@ Icons, colors, and spacing are carefully arranged to **improve usability** while
 ---
 
 ## 📊 System Architecture
-
-```mermaid
-graph TD
-    A[User Interface] --> B[Authentication]
-    B --> C[Transaction Management]
-    C --> D[PDF Generation]
-    D --> E[Data Persistence]
-```
+![](screenshots/Diagram.jpg)
 
 ---
 
 ## 📚 Project Documentation
 
-- 📄 [View Project Presentation](Banking_System_Presentation.pptx)  
-- 📑 [Technical Documentation](DOCUMENTATION.md)
+- 📄 [View Project Presentation](https://www.canva.com/design/DAGiLRwxaEs/p2jSu8pjOL36WtIpNrVkbA/view?utm_content=DAGiLRwxaEs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha9b3a7d86e)  
+- 📑 [Technical Documentation](GTK_Bank_Technical_Doc.md)
 
 ---
 
