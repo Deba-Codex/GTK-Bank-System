@@ -1,34 +1,65 @@
+Below is the rewritten markdown file with all sections and content intact, including the mermaid chart and the detailed installation instructions as provided:
+
+---
+
 # GTK Bank System
 
-🚀 **A Simple Yet Powerful Banking System Using GTK and C**
+🚀 **A Modern Banking Solution with GTK, C, and PDF Receipt Generation**
 
-Welcome to the **GTK Bank System**, a secure and user-friendly desktop banking application built using **C** and **GTK**. This project showcases advanced **file handling**, **GUI programming**, and **secure user authentication**. It serves as an example of how C can be taken to the next level by integrating it with modern UI frameworks.
+Welcome to the **GTK Bank System** – a robust desktop banking application designed with **secure transactions**, **PDF receipt generation**, and an **intuitive UI**. Built using **C, GTK, and Cairo**, this project showcases how traditional banking systems can be modernized with elegant graphical interfaces.
 
 ---
 
 ## 🌟 Why I Built This
 
-I embarked on this project to explore the **power of C beyond the console**. Many believe C is only for low-level programming, but with **GTK**, I aimed to push its capabilities into modern, interactive desktop applications. Through this project, I strengthened my expertise in **GUI development, data persistence, and user authentication**.
+I developed this project to demonstrate that **C is not limited to low-level programming**. By integrating **GTK for UI** and **Cairo for PDF generation**, I have built a full-fledged banking system featuring:
 
-This project reflects my **growth as a C developer**, from writing simple command-line programs to building a **full-fledged, aesthetically pleasing desktop application**. My journey has been fueled by a passion for **efficiency, simplicity, and user experience**.
+- Secure file-based user authentication
+- Real-time transaction tracking
+- Automatic PDF receipt generation
+- Cross-platform compatibility
+
+This project reflects my expertise in **GUI development**, **data persistence**, and **system design** using pure C.
 
 ---
 
 ## 🎯 Features
 
-✅ **User Authentication:** Secure login system with password-based authentication.  
-✅ **Deposit & Withdraw:** Real-time balance updates with transaction management.  
-✅ **Change Password:** Allows users to securely update their passwords.  
-✅ **Transaction Receipt:** Users can view a detailed receipt of their transactions with a click.  
-✅ **Switch Users:** Easily log out and switch between different accounts.  
-✅ **Data Persistence:** All user data is stored in a secure file-based system.  
-✅ **Beautiful UI:** Designed with clarity and simplicity using GTK.  
+✅ **User Authentication**  
+✅ **Deposit & Withdrawal with Balance Tracking**  
+✅ **PDF Receipt Generation**  
+✅ **Password Management**  
+✅ **Transaction History**  
+✅ **Cross-Platform Support**  
+
+### 🔹 Advanced Receipt System
+
+- ✨ **Auto-Saving** – Transactions generate PDF receipts automatically  
+- ✨ **Detailed Records** – Includes timestamp, transaction type, and amounts  
+- ✨ **Professional Formatting** – Clean layout with bank branding  
+- ✨ **Instant Access** – Opens automatically after generation  
+
+[View Sample Receipt](receipt.pdf)
+
+---
+
+## 📸 Interface Preview
+
+### Login & Deposit
+![Login & Deposit](screenshots/login.png)
+
+### Withdraw & Receipt
+![Withdraw & Receipt](screenshots/transactions.png)
+
+### Security Features
+![Security Features](screenshots/security.png)
 
 ---
 
 ## 🌟 Installation
 
 ### Prerequisites
+
 #### For Linux:
 Ensure you have GTK installed on your system:
 ```bash
@@ -53,6 +84,7 @@ cd gtk-bank-system
 ```
 
 ### Compile and Run
+
 #### On Linux:
 ```bash
 gcc bank_system.c -o bank_system `pkg-config --cflags --libs gtk+-3.0`
@@ -64,7 +96,6 @@ gcc bank_system.c -o bank_system `pkg-config --cflags --libs gtk+-3.0`
 gcc bank_system.c -o bank_system.exe `pkg-config --cflags --libs gtk+-3.0`
 ./bank_system.exe
 ```
-
 
 ---
 
@@ -88,26 +119,46 @@ Icons, colors, and spacing are carefully arranged to **improve usability** while
 
 ---
 
-## 🤝 Contribution
+## 📊 System Architecture
 
-Want to make this project even better? Contributions are welcome! Feel free to **fork**, **star**, and **submit pull requests**.
+```mermaid
+graph TD
+    A[User Interface] --> B[Authentication]
+    B --> C[Transaction Management]
+    C --> D[PDF Generation]
+    D --> E[Data Persistence]
+```
 
-1. **Fork the repo** and make your changes.
-2. **Submit a pull request** explaining your modifications.
+---
+
+## 📚 Project Documentation
+
+- 📄 [View Project Presentation](Banking_System_Presentation.pptx)  
+- 📑 [Technical Documentation](DOCUMENTATION.md)
+
+---
+
+## 🤝 Contribution Guide
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature`).
+5. Open a Pull Request.
 
 ---
 
 ## 🐝 License
 
-MIT License. Feel free to use and modify this project as you like.
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
 
 ---
 
-## ❤️ Connect with Me
+## ❤️ Connect
 
-📧 Email: debasishdash2616@gmail.com  
-<!-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)   -->
-🌚 LinkedIn: [Debasish Dash](https://www.linkedin.com/in/debasish-dash-276638310/)  
+- 📧 **Email:** debasishdash2616@gmail.com  
+- 💼 **LinkedIn:** [Debasish Dash](https://www.linkedin.com/in/debasish-dash-276638310/)
 
-⭐ If you like this project, give it a star on GitHub! ⭐
+**If you find this project useful, don't forget to star ⭐ the repository!**
 
+---

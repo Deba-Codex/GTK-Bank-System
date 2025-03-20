@@ -1,0 +1,2 @@
+For execution in MSYS2 MINGW32
+$ gcc Bank.c -o Bank-System `pkg-config --cflags --libs gtk+-3.0 cairo`
