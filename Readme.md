@@ -1,6 +1,4 @@
-Below is the rewritten markdown file with all sections and content intact, including the mermaid chart and the detailed installation instructions as provided:
 
----
 
 # GTK Bank System
 
